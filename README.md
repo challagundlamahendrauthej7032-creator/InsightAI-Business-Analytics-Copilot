@@ -48,4 +48,5 @@ AI & Machine Learning Student | Aspiring Data Analyst
 ## Project Goal
 To make business data analysis easier through automated insights, data-quality checks, and interactive visualizations.
 ## Dashboard Screenshot
+
 ![InsightAI Dashboard](InsightAI_Dashboard.png)
