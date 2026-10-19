@@ -1,20 +1,21 @@
+
 # 📊 InsightAI — Business Analytics Copilot
 
-An interactive business analytics application that helps users upload datasets, analyze data quality, discover business insights, and visualize important metrics.
+An interactive Python application that helps users upload business datasets, check data quality, discover insights, and explore visualizations.
 
 ## 🚀 Project Overview
 
-InsightAI is a Python-based analytics copilot built to simplify exploratory data analysis. Users can upload business datasets and quickly explore their structure, data quality, summary statistics, and visualizations.
+InsightAI is a business analytics copilot built with Python and Streamlit. It simplifies exploratory data analysis by bringing dataset previews, data quality checks, summary statistics, and visualizations into one application.
 
 ## ✨ Features
 
-- 📂 Upload CSV and Excel datasets
-- 📊 View dataset rows, columns, and previews
-- 🧹 Identify missing values and duplicate rows
-- 🔍 Explore column information and data types
-- 📈 Generate interactive charts and visualizations
-- 💡 Discover useful business insights
-- 📋 View numerical summary statistics
+- 📂 Upload CSV and Excel files
+- 📊 View dataset dimensions and preview records
+- 🧹 Detect missing values and duplicate rows
+- 🔍 Explore column names and data types
+- 📈 Create interactive data visualizations
+- 💡 Explore business insights
+- 📋 Review numerical summary statistics
 - 📥 Download analysis results where supported
 
 ## 🛠️ Technologies Used
@@ -29,73 +30,96 @@ InsightAI is a Python-based analytics copilot built to simplify exploratory data
 
 ## 📸 Dashboard Screenshots
 
-### Dataset Overview
+### 1. Dataset Overview
 
-![InsightAI Dashboard](Screenshot%202026-10-19%20190037.png)
+![InsightAI Dataset Overview](https://github.com/challagundlamahendrauthej7032-creator/InsightAI-Business-Analytics-Copilot/raw/refs/heads/main/Screenshot%202026-10-19%20190037.png)
 
-### Data Analysis
+### 2. Data Analysis
 
-![InsightAI Data Analysis](Screenshot%202026-10-19%20190213.png)
+![InsightAI Data Analysis](https://github.com/challagundlamahendrauthej7032-creator/InsightAI-Business-Analytics-Copilot/raw/refs/heads/main/Screenshot%202026-10-19%20190213.png)
 
-### Data Quality Report
+### 3. Data Quality Report
 
-![InsightAI Data Quality](Screenshot%202026-10-19%20190315.png)
+![InsightAI Data Quality](https://github.com/challagundlamahendrauthej7032-creator/InsightAI-Business-Analytics-Copilot/raw/refs/heads/main/Screenshot%202026-10-19%20190315.png)
 
-### Dataset Insights
+### 4. Dataset Insights
 
-![InsightAI Insights](Screenshot%202026-10-19%20190420.png)
+![InsightAI Dataset Insights](https://github.com/challagundlamahendrauthej7032-creator/InsightAI-Business-Analytics-Copilot/raw/refs/heads/main/Screenshot%202026-10-19%20190420.png)
 
-### Interactive Visualizations
+### 5. Interactive Visualizations
 
-![InsightAI Visualizations](Screenshot%202026-10-19%20190458.png)
+![InsightAI Visualizations](https://github.com/challagundlamahendrauthej7032-creator/InsightAI-Business-Analytics-Copilot/raw/refs/heads/main/Screenshot%202026-10-19%20190458.png)
 
-### Additional Analysis
+### 6. Additional Analysis
 
-![InsightAI Additional Analysis](Screenshot%202026-10-19%20190550.png)
+![InsightAI Additional Analysis](https://github.com/challagundlamahendrauthej7032-creator/InsightAI-Business-Analytics-Copilot/raw/refs/heads/main/Screenshot%202026-10-19%20190550.png)
 
-### Business Analytics Results
+### 7. Business Analytics Results
 
-![InsightAI Business Analytics](Screenshot%202026-10-19%20191108.png)
+![InsightAI Business Analytics](https://github.com/challagundlamahendrauthej7032-creator/InsightAI-Business-Analytics-Copilot/raw/refs/heads/main/Screenshot%202026-10-19%20191108.png)
 
-### Latest Dashboard Screenshot
+### 8. Latest Dashboard Screenshot
 
-![InsightAI Latest Dashboard](Screenshot%202026-10-19%20191216.png)
+![InsightAI Latest Dashboard](https://github.com/challagundlamahendrauthej7032-creator/InsightAI-Business-Analytics-Copilot/raw/refs/heads/main/Screenshot%202026-10-19%20191216.png)
 
 ## 📊 Dataset Used
 
-This project was tested with an e-commerce dataset containing the following results:
+The application was tested with an e-commerce dataset containing:
 
-- **Rows:** 397,563
-- **Columns:** 9
-- **Missing Values:** 0
-- **Duplicate Rows:** 27
-- **Unique Invoices:** 18,532
-- **Unique Customers:** 4,338
-- **Total Sales:** 8,132,583.30
-- **Total Quantity:** 5,166,857
+| Metric | Result |
+|---|---:|
+| Rows | 397,563 |
+| Columns | 9 |
+| Missing Values | 0 |
+| Duplicate Rows | 27 |
+| Unique Invoices | 18,532 |
+| Unique Customers | 4,338 |
+| Total Sales | 8,132,583.30 |
+| Total Quantity | 5,166,857 |
 
-*Note: These metrics describe the dataset used for testing. Results may vary with other uploaded datasets.*
+*These metrics describe the dataset used for testing. Results may vary with other uploaded datasets.*
 
 ## 💻 How to Run the Project
 
-### 1. Clone the Repository
+### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/challagundlamahendrauthej7032-creator/InsightAI-Business-Analytics-Copilot.git
 ```
 
-### 2. Open the Project Folder
+### Step 2: Open the Project Folder
 
 ```bash
 cd InsightAI-Business-Analytics-Copilot
 ```
 
-### 3. Install Dependencies
+### Step 3: Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run the Application
+### Step 4: Start the Application
 
+```bash
+python -m streamlit run app.py
 ```
+
+Streamlit will provide a local URL to open the application in your browser.
+
+## 🎯 Project Goal
+
+The goal of InsightAI is to make business data analysis easier by combining data quality checks, exploratory analysis, business insights, and interactive visualizations in one application.
+
+## 👨‍💻 Author
+
+**Mahendra Uttej**
+
+AI & Machine Learning Student | Aspiring Data Analyst
+
+- **GitHub:** [challagundlamahendrauthej7032-creator](https://github.com/challagundlamahendrauthej7032-creator)
+- **LinkedIn:** [Mahendra Uttej](https://linkedin.com/in/mahendra-uthej-ab19993a6)
+
+---
+
+⭐ If you find this project useful, consider giving the repository a star.
